@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tema de casa</title>
+        <link rel="stylesheet" href="css/stil.css" type="text/css"/>
+        <link rel="stylesheet" href="js/script.js" type ="text/js"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <br>
+        <img src="images/skin.jpg" alt="aa" class="center" width="120" height="120">
+        <h1>Skin Gold</h1>
+        <nav>
+            <a href="index">Acasa</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mag">Magazin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="autentificare">Intra in cont / Cont nou</a>
+        </nav>
+        <main>
+            <% if (utilizator == undefined) {%>
+                <h1>Bine ai venit!</h1>
+            <% }
+            else {%>
+                <h1>Bine ai venit, <%=utilizator>!</h1>
+                <form action="/delogare" method="post">
+                    <input type="submit" value="Delogare">
+                </form>
+            <%} %>
+            
+            <a href= "/autentificare"> Autentificare</a>
+        </main>
+
+    </body>
+
+    <br><br>
+    <footer>&#169;.2020 Skin Gold | Toate drepturile rezervate&nbsp;&nbsp;&nbsp;</footer>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tema de casa</title>
+        <link rel="stylesheet" href="css/stil.css" type="text/css"/>
+        <link rel="stylesheet" href="js/script.js" type ="text/js"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <br>
+        <img src="images/skin.jpg" alt="aa" class="center" width="120" height="120">
+        <h1>Skin Gold</h1>
+        <nav>
+            <a href="index">Acasă</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mag">Magazin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="autentificare">Intră în cont / Cont nou</a>
+        </nav>
+        <main>
+            <br><br>
+            <h4>Conectează-te!</h4>
+            <form action="/verificare-autentificare" method="POST">
+                <label for="utilizator" class="text">Utilizator: </label>
+                <input type="text" id="utilizator" name="Utilizator"> <br><br>
+            
+                <label for="parola" class="text">Parola utilizator: </label>
+                <input type="password" id="parola" name="parola"><br><br>
+            
+                <input type="submit" value="Autentificare"><br><br>
+            </form>
+
+            <h4>Client nou</h4>
+            <form action="/verificare-autentificare" method="POST">
+                <label for="Nume" class="text">Nume: </label>
+                <input type="text" id="utilizator" name="Nume"> <br><br>
+            
+                <label for="prenume" class="text">Prenume: </label>
+                <input type="text" id="utilizator" name="prenume"> <br><br>
+
+                <label>Sex-ul: </label>
+                <select>
+                    <option>Feminin</option>
+                    <option>Masculin</option>
+                </select><br><br>
+
+                <label>Email: </label>
+                <input type="email" value=""><br><br>
+                <label>Telefon: </label>
+                <input type="tel" value=""><br><br>
+
+                <label for="parola" class="text">Parola utilizator: </label>
+                <input type="password" id="parola" name="parola"><br><br>
+            
+                <input type="submit" value="Creare cont"><br><br>
+            </form>
+        </main>
+
+    </body>
+
+    <br><br>
+    <footer>&#169;.2020 Skin Gold | Toate drepturile rezervate&nbsp;&nbsp;&nbsp;</footer>
+</html>

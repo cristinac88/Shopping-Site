@@ -1,0 +1,169 @@
+html {
+    background-color: rgb(252, 241, 241);
+    height:100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+body {
+    height:100%;
+    margin: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30;
+    height: 30;
+    border-radius: 50%;
+}
+
+.let{
+    border-radius: 60%;
+}
+
+.top{
+    border-radius: 15px;
+}
+
+.right{
+    border: 1px solid rgb(58, 31, 177);
+    border-radius:8px;
+    padding: 10px;
+}
+
+main{
+    width: 90vw;
+    margin-left: 20px;
+    min-height: calc(100vh -720px );
+}
+
+nav {
+    background-color: rgb(221, 216, 216);
+    text-align:center;
+    font-size:xx-large;
+    font-family: 'Verdana', sans-serif;
+}
+
+nav a:hover{
+    background-color: rgb(245, 199, 231);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    padding: 5px 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(230, 219, 68);
+    text-decoration-line: overline;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(165, 16, 158);
+}
+
+h3{
+    text-align: center;
+    color: rgb(31, 30, 29);
+    font-family:'Cinzel Decorative';
+}
+
+form{
+    margin-left: 20px;
+}
+
+form b{
+    background-color: rgb(141, 250, 214);
+}
+
+footer {
+    text-align: right;
+    height: 10px;
+    padding: 10px;
+}
+
+.red{
+    color: rgb(8, 41, 70);
+    font-family: 'Sofia';
+    font-size: 20px; 
+}
+
+.one{
+    font-family: 'Beth Ellen';
+    font-size:20px;
+    color: rgb(153, 50, 47);
+    text-align: center;
+}
+
+.card {
+    max-width: 300px;
+    text-align: center;    
+    font-family: arial;
+    display: flex;
+    padding: 10px;
+}
+  
+.column{
+    flex: 33.33%;
+    padding: 40px;
+}
+
+.price {
+    color: rgb(68, 68, 68);
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 200px;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #545557;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
